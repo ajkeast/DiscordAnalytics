@@ -1,5 +1,3 @@
-from turtle import width
-import requests
 import pymysql
 import pandas as pd
 import numpy as np
