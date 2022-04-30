@@ -16,8 +16,8 @@ def get_df():
 df = get_df()
 
 defaultDink = ['Mo#8516','Bryan#5357','Goat 🤠#4059','SamtyClaws#7243']
-certifiedDink = ['Mo#8516','Bryan#5357','Goat 🤠#4059','tornadotom50#8420','UrineTrouble#0784',
-                 'SamtyClaws#7243','Frozen Tofu#8827','rasdori#5703','jack phelps#4293','Hunter#1550']
+certifiedDink = ['Mo#8516','Bryan#5357','Goat 🤠#4059','tornadotom50#8420','ConKeastador#0784',
+                 'SamtyClaws#7243','Frozen Tofu#8827','rasdori#5703','jack phelps#4293','Hunter#1550','Mike Shi#8827']
 
 current_emotes =[":updatebrb:",":Trump2:",":Trump1:",":SteveDab:",":ResidentSleeper:",":PickleRick2:",
                  ":nut~1:",":NotWhikeThis:",":longho:",":LulCuckXd:",":Mo420:",":MoFace:",":monkaS:",
