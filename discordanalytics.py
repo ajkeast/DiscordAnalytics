@@ -94,7 +94,7 @@ line.update_layout(width=1600,height=800)
 st.title('1st Leaderboard')
 st.plotly_chart(line)
 st.title('Juiciest Message 🧃')
-st.write(df_grouped.round(decimals=1))
+st.write(df_grouped.style.format(precision=0))
 
 def load_lottieurl(url: str):
     r = requests.get(url)
