@@ -40,7 +40,7 @@ FilterEmojiCount_df.columns=['count']
 # get sql connection
 host = 'discord.cx7k4hmr40ql.us-east-1.rds.amazonaws.com'
 user = 'admin'
-password = 'peterdink'
+password = 'mikeshiis110%sexy'
 tablename ='firstlist'
 conn = pymysql.connect(host=host, user=user,password=password)
 cursor = conn.cursor()
