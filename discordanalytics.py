@@ -58,7 +58,7 @@ seconds = df_first['timesent'].dt.second
 total_mins = (seconds/60)+minutes+(hours*60)
 df_first['Juice'] = total_mins
 df_grouped = df_first[['username','Juice']].groupby('username').sum()
-df_grouped = df_grouped.sort_values('Juice',ascending=False).iloc[1:len(df_grouped)]
+df_grouped = df_grouped.sort_values('Juice',ascending=False).iloc[0:len(df_grouped)]
 
 df_first['_1st to date'] = df_first.groupby('username').cumcount()+1
 
