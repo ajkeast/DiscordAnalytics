@@ -85,16 +85,16 @@ bar_chart = px.bar(filtered_df,x='Date',y=dink_selection,title='Monthly messages
 bar_chart.update_layout(width=1600,height=800)
 st.plotly_chart(bar_chart)
 
-# pie_chart = px.pie(FilterEmojiCount_df,names=FilterEmojiCount_df.index,values='count',title='Most Used Emojis')
-# pie_chart.update_layout(width=800,height=800)
-# st.plotly_chart(pie_chart)
-
 line = px.line(df_first,x='timesent',y='_1st to date',color='username',width=1000,height=600)
 line.update_layout(width=1600,height=800)
 st.title('1st Leaderboard')
 st.plotly_chart(line)
 st.title('Juiciest Message 🧃')
 st.write(df_grouped.style.format(precision=1))
+st.title('Most Used Emotes')
+pie_chart = px.pie(FilterEmojiCount_df,names=FilterEmojiCount_df.index,values='count',title='Most Used Emojis')
+pie_chart.update_layout(width=800,height=800)
+st.plotly_chart(pie_chart)
 
 def load_lottieurl(url: str):
     r = requests.get(url)
